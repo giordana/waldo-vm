@@ -9,9 +9,3 @@ execute 'install bundler' do
   user 'root'
   creates '/home/vagrant/bundler-installed'
 end
-
-execute 'install gems' do
-  command 'bundle install'
-  cwd '/vagrant'
-  user 'vagrant'
-end
