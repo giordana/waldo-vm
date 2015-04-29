@@ -13,5 +13,5 @@ end
 execute 'install gems' do
   command 'bundle install'
   cwd '/vagrant'
-  user 'root'
+  user 'vagrant'
 end
