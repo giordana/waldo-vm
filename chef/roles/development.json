@@ -4,8 +4,8 @@
   "json_class": "Chef::Role",
   "run_list": [
     "recipe[apt]",
-    "recipe[ruby]",
-    "recipe[postgresql]"
+    "recipe[postgresql]",
+    "recipe[ruby]"
   ]
 }
 
