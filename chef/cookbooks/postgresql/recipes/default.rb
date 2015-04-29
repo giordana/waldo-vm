@@ -32,5 +32,6 @@ end
 
 cookbook_file 'pgpass' do
   path '/home/vagrant/.pgpass'
+  user 'vagrant'
   mode '0600'
 end
